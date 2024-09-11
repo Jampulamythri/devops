@@ -3,10 +3,12 @@ pipeline {
 
     stages {
         stage('Build') 
+{
             
             steps {
                 echo 'Building Assets...'
             }
+}
         
         stage('Test') {
          
